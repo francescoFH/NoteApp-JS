@@ -5,10 +5,10 @@ class NoteList {
 
   addNewNote(note) {
     let newNote = new NoteList(note)
-    this.notes.push(newNote)
+    this.notes.push(newNote.returnNotes)
   }
 
   returnNotes() {
-    this.notes
+    return this.notes
   }
 }
