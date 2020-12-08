@@ -25,7 +25,12 @@ So I can see all the information in the note
 - Write unit tests without using a testing library.
 - Use javascript classes.
 - Use the module pattern to wrap your code.
+- Write unit tests without using a testing library.
+- Use javascript classes.
+- Interpolate data into static HTML.
 
 ### Steps to complete the challenge
 
-* TDD a note object that fulfils the specification below.
+- TDD a note object that fulfils the specification below.
+- TDD a note list object that fulfils the specification below.
+- TDD the note list view object that fulfils the specification below.

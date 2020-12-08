@@ -1,6 +1,6 @@
 class NoteListView {
   constructor(noteList) {
-    this.noteList = noteList
+    this.noteList = noteList;
   }
 
   htmlList() {
@@ -11,10 +11,10 @@ class NoteListView {
     if (notes.length === 1) return `<ul><li><div>${notes}<div><li><ul>`;
 
     else {
-      notes.map(note =>{
-        return `<li><div>${note.text}</div></li>`
-      })
+      notes.map(note => {
+        return `<li><div>${note.text}</div></li>`;
+      });
     }
-    return `<ul>${notes.join("")}</ul>`
+    return `<ul>${notes.join('')}</ul>`;
   }
 }

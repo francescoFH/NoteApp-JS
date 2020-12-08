@@ -1,9 +1,9 @@
 class Note {
   constructor(text) {
-    this.text = text
+    this.text = text;
   }
 
   returnNote() {
-    return this.text
+    return this.text;
   }
 }

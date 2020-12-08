@@ -1,14 +1,14 @@
 class NoteList {
   constructor() {
-    this.notes = []
+    this.notes = [];
   }
 
   addNewNote(note) {
-    let newNote = new NoteList(note)
-    this.notes.push(newNote.returnNotes)
+    let newNote = new NoteList(note);
+    this.notes.push(newNote.returnNotes);
   }
 
   returnNotes() {
-    return this.notes
+    return this.notes;
   }
 }
