@@ -4,8 +4,8 @@ class NoteList {
   }
 
   addNewNote(note) {
-    let newNote = new NoteList(note);
-    this.notes.push(newNote.returnNotes);
+    let newNote = new Note(note);
+    this.notes.push(newNote.returnNote());
   }
 
   returnNotes() {
